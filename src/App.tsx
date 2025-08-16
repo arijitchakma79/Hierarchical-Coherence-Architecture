@@ -1,7 +1,7 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
 import HomePage from './pages/HomaPage'
-import Dataset from './pages/Dataset'
+import DatasetOverview from './pages/DatasetOverview'
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
     <div>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/dataset" element={<Dataset />} />
+        <Route path="/dataset" element={<DatasetOverview />} />
         <Route path="/" element={<HomePage />} />
       </Routes>
     </div>

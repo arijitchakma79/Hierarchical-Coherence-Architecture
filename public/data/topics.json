@@ -1,0 +1,602 @@
+[
+  {
+    "topic":"Draw examples of different strengths of pushes (harder vs softer).",
+    "code":"K-PS2-1",
+    "grade":"K"
+  },
+  {
+    "topic":"Illustrate a sunny area with thermometer visuals.",
+    "code":"K-PS3-1",
+    "grade":"K"
+  },
+  {
+    "topic":"Illustrate a shaded and unshaded spot showing temperature difference.",
+    "code":"K-PS3-2",
+    "grade":"K"
+  },
+  {
+    "topic":"Illustrate plants with and without water.",
+    "code":"K-LS1-1",
+    "grade":"K"
+  },
+  {
+    "topic":"Draw a picture representing summer season with weather patterns.",
+    "code":"K-ESS2-1",
+    "grade":"K"
+  },
+  {
+    "topic":"Illustrate a bird building a nest.",
+    "code":"K-ESS2-2",
+    "grade":"K"
+  },
+  {
+    "topic":"Draw a fish in their habitats (water) with labels.",
+    "code":"K-ESS3-1",
+    "grade":"K"
+  },
+  {
+    "topic":"Draw a picture of tornado shelter alerts and responses.",
+    "code":"K-ESS3-2",
+    "grade":"K"
+  },
+  {
+    "topic":"Illustrate people planting trees",
+    "code":"K-ESS3-3",
+    "grade":"K"
+  },
+  {
+    "topic":"Show objects (rice jumping on a drum) reacting to sound.",
+    "code":"1-PS4-1",
+    "grade":"1"
+  },
+  {
+    "topic":"Illustrate a flashlight lighting up an object in the dark.",
+    "code":"1-PS4-2",
+    "grade":"1"
+  },
+  {
+    "topic":"Draw light passing through clear, cloudy, and solid materials.",
+    "code":"1-PS4-3",
+    "grade":"1"
+  },
+  {
+    "topic":"Draw a string telephone between two students.",
+    "code":"1-PS4-4",
+    "grade":"1"
+  },
+  {
+    "topic":"Draw a helmet inspired by turtle shells.",
+    "code":"1-LS1-1",
+    "grade":"1"
+  },
+  {
+    "topic":"Draw a baby bird being fed by a parent.",
+    "code":"1-LS1-2",
+    "grade":"1"
+  },
+  {
+    "topic":"Illustrate parent animals protecting young from predators.",
+    "code":"1-LS1-2",
+    "grade":"1"
+  },
+  {
+    "topic":"Draw a puppy next to its parent dog highlighting similarities.",
+    "code":"1-LS3-1",
+    "grade":"1"
+  },
+  {
+    "topic":"Illustrate star visibility during night and not day.",
+    "code":"1-ESS1-1",
+    "grade":"1"
+  },
+  {
+    "topic":"Draw seasonal scenes showing daylight differences.",
+    "code":"1-ESS1-2",
+    "grade":"1"
+  },
+  {
+    "topic":"Draw and label three materials with properties like texture, color, hardness (hard, soft, rough).",
+    "code":"2-PS1-1",
+    "grade":"2"
+  },
+  {
+    "topic":"Sketch two objects and label the best material choice and why",
+    "code":"2-PS1-2",
+    "grade":"2"
+  },
+  {
+    "topic":"Draw before-and-after images of a toy disassembled and reassembled",
+    "code":"2-PS1-3",
+    "grade":"2"
+  },
+  {
+    "topic":"Draw reversible change (ice melting).",
+    "code":"2-PS1-4",
+    "grade":"2"
+  },
+  {
+    "topic":"Draw four plant setups (with\/without water and sunlight)",
+    "code":"2-LS2-1",
+    "grade":"2"
+  },
+  {
+    "topic":"Draw an animal helping in pollination",
+    "code":"2-LS2-2",
+    "grade":"2"
+  },
+  {
+    "topic":"Draw a habitat and the three living things in it",
+    "code":"2-LS4-1",
+    "grade":"2"
+  },
+  {
+    "topic":"Draw fast and slow Earth changes side-by-side (volcano vs. erosion)",
+    "code":"2-ESS1-1",
+    "grade":"2"
+  },
+  {
+    "topic":"Draw a map showing hills, rivers, lakes, and flat lands",
+    "code":"2-ESS2-2",
+    "grade":"2"
+  },
+  {
+    "topic":"Draw and label sources of water on Earth (ocean, lake, pond)",
+    "code":"2-ESS2-3",
+    "grade":"2"
+  },
+  {
+    "topic":"Draw a setup with unbalanced forces making an object move",
+    "code":"3-PS2-1",
+    "grade":"3"
+  },
+  {
+    "topic":"Pendulum swinging showing repeated motion",
+    "code":"3-PS2-2",
+    "grade":"3"
+  },
+  {
+    "topic":"Orientation effects on attraction and repulsion between magnets",
+    "code":"3-PS2-3",
+    "grade":"3"
+  },
+  {
+    "topic":"Sketch of device separating two moving objects",
+    "code":"3-PS2-4",
+    "grade":"3"
+  },
+  {
+    "topic":"Lifecycle diagram of flowering plant",
+    "code":"3-LS1-1",
+    "grade":"3"
+  },
+  {
+    "topic":"Scene showing group (deer) defense against predator (wolf)",
+    "code":"3-LS2-1",
+    "grade":"3"
+  },
+  {
+    "topic":"Compare a parent and an offspring characteristics",
+    "code":"3-LS3-1",
+    "grade":"3"
+  },
+  {
+    "topic":"Two same plants with different watering outcomes",
+    "code":"3-LS3-2",
+    "grade":"3"
+  },
+  {
+    "topic":"Comparison of thorns on same plant species",
+    "code":"3-LS4-2",
+    "grade":"3"
+  },
+  {
+    "topic":"Chart showing habitat suitability for organisms",
+    "code":"3-LS4-3",
+    "grade":"3"
+  },
+  {
+    "topic":"Flowchart linking environment change to organism response",
+    "code":"3-LS4-4",
+    "grade":"3"
+  },
+  {
+    "topic":"Hazard problem and solution diagram",
+    "code":"3-ESS3-1",
+    "grade":"3"
+  },
+  {
+    "topic":"Draw an object speeding up and label energy increase",
+    "code":"4-PS3-1",
+    "grade":"4"
+  },
+  {
+    "topic":"Musical instrument showing sound transfer",
+    "code":"4-PS3-2",
+    "grade":"4"
+  },
+  {
+    "topic":"Circuit transferring energy to a light bulb.",
+    "code":"4-PS3-2",
+    "grade":"4"
+  },
+  {
+    "topic":"Electric circuit transferring energy to motor",
+    "code":"4-PS3-2",
+    "grade":"4"
+  },
+  {
+    "topic":"Collision between toy cars and energy transfer",
+    "code":"4-PS3-3",
+    "grade":"4"
+  },
+  {
+    "topic":"Windmill converting wind to electric energy",
+    "code":"4-PS3-4",
+    "grade":"4"
+  },
+  {
+    "topic":"Wave hitting object and causing it to move",
+    "code":"4-PS4-1",
+    "grade":"4"
+  },
+  {
+    "topic":"Compare flag signal and flashing light patterns",
+    "code":"4-PS4-3",
+    "grade":"4"
+  },
+  {
+    "topic":"Sketch of binary code transfer system",
+    "code":"4-PS4-3",
+    "grade":"4"
+  },
+  {
+    "topic":"An Animal body parts and their survival function",
+    "code":"4-LS1-1",
+    "grade":"4"
+  },
+  {
+    "topic":"Draw an animal responding to sound or light",
+    "code":"4-LS1-2",
+    "grade":"4"
+  },
+  {
+    "topic":"Layers of rock with embedded fossils",
+    "code":"4-ESS1-1",
+    "grade":"4"
+  },
+  {
+    "topic":"Compare before-after diagrams of rock erosion",
+    "code":"4-ESS2-1",
+    "grade":"4"
+  },
+  {
+    "topic":"Map of mountains, rivers, volcanoes",
+    "code":"4-ESS2-2",
+    "grade":"4"
+  },
+  {
+    "topic":"Flowchart of fuel use and pollution impact",
+    "code":"4-ESS3-1",
+    "grade":"4"
+  },
+  {
+    "topic":"Draw two differentg flood barrier design and compare.",
+    "code":"4-ESS3-2",
+    "grade":"4"
+  },
+  {
+    "topic":"Draw a model of a balloon being inflated showing air particles",
+    "code":"5-PS1-1",
+    "grade":"5"
+  },
+  {
+    "topic":"Illustrate sugar dissolving in water with unseen particles",
+    "code":"5-PS1-1",
+    "grade":"5"
+  },
+  {
+    "topic":"Draw a setup for measuring weight before\/after mixing substances",
+    "code":"5-PS1-2",
+    "grade":"5"
+  },
+  {
+    "topic":"Create a table of properties used to identify unknown substances",
+    "code":"5-PS1-3",
+    "grade":"5"
+  },
+  {
+    "topic":"Create a flowchart showing evidence of new substance formation",
+    "code":"5-PS1-4",
+    "grade":"5"
+  },
+  {
+    "topic":"Sketch evidence like a dropped ball always going downward",
+    "code":"5-PS2-1",
+    "grade":"5"
+  },
+  {
+    "topic":"Draw a food chain showing energy from sun to plant to animal",
+    "code":"5-PS3-1",
+    "grade":"5"
+  },
+  {
+    "topic":"Illustrate air and water entering a plant system",
+    "code":"5-LS1-1",
+    "grade":"5"
+  },
+  {
+    "topic":"Cycle diagram showing matter flow through an ecosystem",
+    "code":"5-LS2-1",
+    "grade":"5"
+  },
+  {
+    "topic":"Diagram comparing sun to distant stars with brightness labels",
+    "code":"5-ESS1-1",
+    "grade":"5"
+  },
+  {
+    "topic":"Draw shadows at morning, noon, evening",
+    "code":"5-ESS1-2",
+    "grade":"5"
+  },
+  {
+    "topic":"Draw how ocean affects coastal weather",
+    "code":"5-ESS2-1",
+    "grade":"5"
+  },
+  {
+    "topic":"Diagram community practices to protect land or air",
+    "code":"5-ESS3-1",
+    "grade":"5"
+  },
+  {
+    "topic":"Draw a ball-and-stick model of ammonia.",
+    "code":"MS-PS1-1",
+    "grade":"MS"
+  },
+  {
+    "topic":"Draw before-and-after interaction of steel wool with oxygen.",
+    "code":"MS-PS1-2",
+    "grade":"MS"
+  },
+  {
+    "topic":"Sketch the transformation of limestone into cement.",
+    "code":"MS-PS1-3",
+    "grade":"MS"
+  },
+  {
+    "topic":"Show how thermal energy affects helium particles.",
+    "code":"MS-PS1-4",
+    "grade":"MS"
+  },
+  {
+    "topic":"Create a visual balance of atoms in water formation.",
+    "code":"MS-PS1-5",
+    "grade":"MS"
+  },
+  {
+    "topic":"Draw a concept for heat-releasing reaction device.",
+    "code":"MS-PS1-6",
+    "grade":"MS"
+  },
+  {
+    "topic":"Draw a car crash with labeled action-reaction forces.",
+    "code":"MS-PS2-1",
+    "grade":"MS"
+  },
+  {
+    "topic":"Sketch experiment setup comparing force on different masses.",
+    "code":"MS-PS2-2",
+    "grade":"MS"
+  },
+  {
+    "topic":"Sketch magnets at different distances and predict force strength.",
+    "code":"MS-PS2-3",
+    "grade":"MS"
+  },
+  {
+    "topic":"Sketch field lines between charged objects.",
+    "code":"MS-PS2-5",
+    "grade":"MS"
+  },
+  {
+    "topic":"Draw line graph showing KE increase with speed.",
+    "code":"MS-PS3-1",
+    "grade":"MS"
+  },
+  {
+    "topic":"Diagram KE comparisons between balls of different weights.",
+    "code":"MS-PS3-1",
+    "grade":"MS"
+  },
+  {
+    "topic":"Draw Earth-ball system showing potential energy increase with height.",
+    "code":"MS-PS3-2",
+    "grade":"MS"
+  },
+  {
+    "topic":"Draw insulated container and show heat flow paths.",
+    "code":"MS-PS3-3",
+    "grade":"MS"
+  },
+  {
+    "topic":"Diagram experiment comparing materials heating rates.",
+    "code":"MS-PS3-4",
+    "grade":"MS"
+  },
+  {
+    "topic":"Draw energy bar charts before and after motion change.",
+    "code":"MS-PS3-5",
+    "grade":"MS"
+  },
+  {
+    "topic":"Compare two waves showing energy based on frequency.",
+    "code":"MS-PS4-1",
+    "grade":"MS"
+  },
+  {
+    "topic":"Compare wave behaviors through different materials.",
+    "code":"MS-PS4-2",
+    "grade":"MS"
+  },
+  {
+    "topic":"Sketch transmission degradation in analog vs. digital.",
+    "code":"MS-PS4-3",
+    "grade":"MS"
+  },
+  {
+    "topic":"Draw a cell under a microscope",
+    "code":"MS-LS1-1",
+    "grade":"MS"
+  },
+  {
+    "topic":"Draw a model showing cell membrane interaction",
+    "code":"MS-LS1-2",
+    "grade":"MS"
+  },
+  {
+    "topic":"Draw body systems and label organs",
+    "code":"MS-LS1-3",
+    "grade":"MS"
+  },
+  {
+    "topic":"Illustrate a pollinator visiting a flower",
+    "code":"MS-LS1-4",
+    "grade":"MS"
+  },
+  {
+    "topic":"Illustrate drought effect on growth",
+    "code":"MS-LS1-5",
+    "grade":"MS"
+  },
+  {
+    "topic":"Timeline of embryonic changes",
+    "code":"MS-LS4-3",
+    "grade":"MS"
+  },
+  {
+    "topic":"Diagram inputs\/outputs of photosynthesis",
+    "code":"MS-LS1-6",
+    "grade":"MS"
+  },
+  {
+    "topic":"Compare modern and fossil skeletons",
+    "code":"MS-LS4-2",
+    "grade":"MS"
+  },
+  {
+    "topic":"Design a model to show interactions between Earth's systems",
+    "code":"MS-ESS1-1",
+    "grade":"MS"
+  },
+  {
+    "topic":"Diagram showing element size and reactivity trend",
+    "code":"HS-PS1-1",
+    "grade":"HS"
+  },
+  {
+    "topic":"Diagram of potential energy before\/after reaction",
+    "code":"HS-PS1-4",
+    "grade":"HS"
+  },
+  {
+    "topic":"Drawing of molecules colliding at high\/low temp",
+    "code":"HS-PS1-5",
+    "grade":"HS"
+  },
+  {
+    "topic":"Write a balanced equation diagram with atom\/mass labels",
+    "code":"HS-PS1-7",
+    "grade":"HS"
+  },
+  {
+    "topic":"Collision before\/after momentum diagrams",
+    "code":"HS-PS2-2",
+    "grade":"HS"
+  },
+  {
+    "topic":"Sketch of helmet design",
+    "code":"HS-PS2-3",
+    "grade":"HS"
+  },
+  {
+    "topic":"Labelled drawing of wave-material interaction",
+    "code":"HS-PS4-3",
+    "grade":"HS"
+  },
+  {
+    "topic":"Illustrate how cell structures relate to their functions",
+    "code":"HS-LS1-1",
+    "grade":"HS"
+  },
+  {
+    "topic":"Draw body's respiratory system interacting.",
+    "code":"HS-LS1-2",
+    "grade":"HS"
+  },
+  {
+    "topic":"Draw a mitochondrion and show ATP production",
+    "code":"HS-LS1-6",
+    "grade":"HS"
+  },
+  {
+    "topic":"Draw cellular respiration showing inputs (glucose, oxygen) and outputs (CO2, water, ATP).",
+    "code":"HS-LS1-7",
+    "grade":"HS"
+  },
+  {
+    "topic":"Diagram carbon cycle through biotic and abiotic parts",
+    "code":"HS-LS2-2",
+    "grade":"HS"
+  },
+  {
+    "topic":"Illustrate carbon cycle in an ecosystem.",
+    "code":"HS-LS2-4",
+    "grade":"HS"
+  },
+  {
+    "topic":"Design a green city layout reducing pollution and preserving species.",
+    "code":"HS-LS2-7",
+    "grade":"HS"
+  },
+  {
+    "topic":"Illustrate genetic vs environmental influence on traits",
+    "code":"HS-LS3-1",
+    "grade":"HS"
+  },
+  {
+    "topic":"Draw a plant in different soil types with outcomes",
+    "code":"HS-LS3-3",
+    "grade":"HS"
+  },
+  {
+    "topic":"Draw a timeline of the universe from the Big Bang to present.",
+    "code":"HS-ESS1-2",
+    "grade":"HS"
+  },
+  {
+    "topic":"Depict past supercontinents like Pangaea and movement.",
+    "code":"HS-ESS1-5",
+    "grade":"HS"
+  },
+  {
+    "topic":"Illustrate Earth\u2019s layers and formation history.",
+    "code":"HS-ESS1-6",
+    "grade":"HS"
+  },
+  {
+    "topic":"Illustrate interactions of atmosphere, biosphere, geosphere, hydrosphere.",
+    "code":"HS-ESS2-6",
+    "grade":"HS"
+  },
+  {
+    "topic":"Illustrate impact of hazards (floods, volcanoes) on cities.",
+    "code":"HS-ESS3-1",
+    "grade":"HS"
+  },
+  {
+    "topic":"Model population growth vs. food\/water access.",
+    "code":"HS-ESS3-3",
+    "grade":"HS"
+  }
+]
