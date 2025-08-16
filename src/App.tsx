@@ -1,11 +1,17 @@
-import { useState } from 'react'
 import './App.css'
+import { Routes, Route } from 'react-router-dom'
+import HomePage from './pages/HomaPage'
+import Dataset from './pages/Dataset'
 
 function App() {
-  
+
   return (
     <div>
-      <h1>Hierarchical Coherence Architecture</h1>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/dataset" element={<Dataset />} />
+        <Route path="/" element={<HomePage />} />
+      </Routes>
     </div>
   )
 }
