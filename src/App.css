@@ -1,0 +1,39 @@
+:root {
+  --color-bg: #e3f0ff;
+  --color-bg-gradient: linear-gradient(135deg, #e3f0ff 0%, #f5f7fa 100%);
+  --color-card: #fff;
+  --color-accent: #1976d2;
+  --color-accent-dark: #115293;
+  --color-text: #222;
+  --color-muted: #888;
+  --color-shadow: 0 4px 24px 0 rgba(30, 136, 229, 0.10);
+  --color-shadow-hover: 0 8px 32px 0 rgba(30, 136, 229, 0.18);
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  background: var(--color-bg-gradient);
+  min-height: 100vh;
+  margin: 0;
+  color: var(--color-text);
+  transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  --color-bg: #181c24;
+  --color-bg-gradient: linear-gradient(135deg, #232a36 0%, #181c24 100%);
+  --color-card: #232a36;
+  --color-accent: #90caf9;
+  --color-accent-dark: #1976d2;
+  --color-text: #f5f7fa;
+  --color-muted: #b0b8c1;
+  --color-shadow: 0 4px 24px 0 rgba(30, 136, 229, 0.18);
+  --color-shadow-hover: 0 8px 32px 0 rgba(30, 136, 229, 0.28);
+  background: var(--color-bg-gradient);
+  color: var(--color-text);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: none; }
+}
