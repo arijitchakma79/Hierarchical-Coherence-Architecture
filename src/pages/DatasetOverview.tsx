@@ -101,24 +101,18 @@ function DatasetOverview() {
           <InputLabel>Grade</InputLabel>
           <Select value={gradeFilter} onChange={(e) => setGradeFilter(e.target.value)} label="Grade">
             {grades.map((g) => (
-              <MenuItem key={g} value={g}>
-                {g}
-              </MenuItem>
+              <MenuItem key={g} value={g}>{g}</MenuItem>
             ))}
           </Select>
         </FormControl>
-
         <FormControl sx={{ minWidth: 160 }} size="small">
           <InputLabel>NGSS Code</InputLabel>
           <Select value={codeFilter} onChange={(e) => setCodeFilter(e.target.value)} label="NGSS Code">
             {codes.map((c) => (
-              <MenuItem key={c} value={c}>
-                {c}
-              </MenuItem>
+              <MenuItem key={c} value={c}>{c}</MenuItem>
             ))}
           </Select>
         </FormControl>
-
         <TextField
           label="Search Topic or Code"
           variant="outlined"
@@ -133,13 +127,7 @@ function DatasetOverview() {
       </Box>
 
       {/* Google Drive File Listing */}
-      <Box sx={{ display: "flex", alignItems: "center", gap: 2, mb: 3, mx: 4 }}>
-        <Button variant="contained" onClick={handleListFiles}>
-          List HCA_Dataset Files
-        </Button>
-        {loadingFiles && <Typography>Loading files...</Typography>}
-        {filesError && <Typography color="error">{filesError}</Typography>}
-      </Box>
+      {/* Removed the List HCA_Dataset Files button and status messages */}
 
       {files.length > 0 && (
         <Box sx={{ mx: 4, mb: 4, p: 2 }}>
@@ -157,11 +145,68 @@ function DatasetOverview() {
       {/* Topics Grid */}
       <Box sx={{ width: "90vw", mx: "auto", display: "flex", flexWrap: "wrap", gap: 4, justifyContent: "center", py: 6 }}>
         {paginatedTopics.map((topic, idx) => (
-          <Card key={idx} sx={{ width: 300, p: 2, cursor: "pointer" }} onClick={() => navigate(`/topic/${topic.code}`)}>
-            <CardContent>
-              <Typography variant="h6">{topic.code}</Typography>
-              <Typography variant="body2">{topic.topic}</Typography>
-              <Typography variant="caption">Grade: {topic.grade}</Typography>
+          <Card
+            key={idx}
+            sx={{
+              width: 320,
+              minHeight: 200,
+              borderRadius: 4,
+              boxShadow: 'var(--color-shadow)',
+              bgcolor: 'var(--color-card)',
+              p: 2,
+              cursor: "pointer",
+              display: 'flex',
+              flexDirection: 'row',
+              alignItems: 'stretch',
+              position: 'relative',
+              overflow: 'hidden',
+              transition: 'transform 0.2s, box-shadow 0.2s',
+              animation: 'fadeIn 0.7s',
+              animationDelay: `${idx * 0.05}s`,
+              animationFillMode: 'backwards',
+              '&:hover': {
+                transform: 'translateY(-6px) scale(1.03)',
+                boxShadow: 'var(--color-shadow-hover)',
+              },
+            }}
+            onClick={() => navigate(`/topic/${topic.code}`)}
+          >
+            {/* Accent bar for card */}
+            <Box sx={{ width: 6, bgcolor: 'var(--color-accent)', borderTopLeftRadius: 16, borderBottomLeftRadius: 16, mr: 2 }} />
+            <CardContent sx={{ flexGrow: 1, overflow: "hidden", p: 2, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+              <Box>
+                <Typography
+                  variant="h6"
+                  gutterBottom
+                  sx={{ color: "var(--color-accent)", fontWeight: 700, fontSize: 22, letterSpacing: 0.5 }}
+                >
+                  {topic.code}
+                </Typography>
+                <Typography
+                  variant="body1"
+                  sx={{
+                    mb: 2,
+                    color: "var(--color-text)",
+                    fontSize: 17,
+                    display: "-webkit-box",
+                    WebkitLineClamp: 3,
+                    WebkitBoxOrient: "vertical",
+                    overflow: "hidden",
+                    textOverflow: "ellipsis",
+                  }}
+                >
+                  {topic.topic}
+                </Typography>
+              </Box>
+              <Box>
+                <Typography
+                  variant="caption"
+                  display="block"
+                  sx={{ mt: 1, color: "var(--color-muted)", fontSize: 15 }}
+                >
+                  Grade: {topic.grade}
+                </Typography>
+              </Box>
             </CardContent>
           </Card>
         ))}
